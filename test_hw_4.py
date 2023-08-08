@@ -85,4 +85,4 @@ def test_dicts():
     print(list(d.values()))
     assert isinstance(d, dict)
     assert len(d) == 5
-    d = dict(zip(first, second))
+
