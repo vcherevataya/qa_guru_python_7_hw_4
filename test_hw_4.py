@@ -30,7 +30,6 @@ def test_rectangle():
     assert area == 200
 
 
-
 def test_circle():
     """
     Напишите программу, которая берет радиус круга и выводит на экран его длину и площадь.
@@ -52,13 +51,11 @@ def test_random_list():
     Создайте список из 10 случайных чисел от 1 до 100 и отсортируйте его по возрастанию.
     """
 
-
     l = [random.randint(1, 100) for c in range(10)]
     l.sort()
 
     assert len(l) == 10
     assert l[0] < l[-1]
-
 
 
 def test_unique_elements():
